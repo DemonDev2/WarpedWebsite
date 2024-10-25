@@ -2,15 +2,10 @@ import React, { useState } from 'react';
 import heroImg from "../../assets/hero1.png";
 
 const Hero = () => {
-  // State to control the visibility of the error modal
   const [showErrorModal, setShowErrorModal] = useState(false);
-
-  // Function to handle the close of the modal and redirection
   const handleCloseModal = () => {
     setShowErrorModal(false);
   };
-
-  // Function to handle the redirection
   const handleRedirect = () => {
     window.location.href = 'https://demondev2.github.io/DoNotEnter'; // Your redirect URL
   };

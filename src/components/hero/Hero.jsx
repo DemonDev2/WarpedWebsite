@@ -12,7 +12,7 @@ const Hero = () => {
 
   // Function to handle the redirection
   const handleRedirect = () => {
-    window.location.href = 'https://demondev0666.github.io/DoNotEnter'; // Your redirect URL
+    window.location.href = 'https://demondev2.github.io/DoNotEnter'; // Your redirect URL
   };
 
   return (
